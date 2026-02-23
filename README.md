@@ -1,2 +1,4 @@
-# IA-5-7
-Tareas IA
+# IA-6-7
+--Torres Lizarraga Yair
+
+
