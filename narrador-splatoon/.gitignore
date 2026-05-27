@@ -1,0 +1,8 @@
+.venv
+.DS_Store
+*.mp4
+__pycache__
+*.mov
+*.wav
+*.srt
+!splatlit.mp4

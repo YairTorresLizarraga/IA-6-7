@@ -1,0 +1,37 @@
+{
+  "ultimate": {
+    "sections": [
+      {
+        "x": 1129,
+        "y": 24,
+        "width": 113,
+        "height": 113
+      }
+    ],
+    "individual_sections": [],
+    "labels": ["not_ready", "ready"]
+  },
+  "health": {
+    "sections": [
+      {
+        "x": 0,
+        "y": 0,
+        "width": 330,
+        "height": 720
+      },
+      {
+        "x": 951,
+        "y": 138,
+        "width": 329,
+        "height": 582
+      }
+    ],
+    "individual_sections": [],
+    "labels": [
+      "critical",
+      "light_damage",
+      "medium_damage",
+      "ok"
+    ]
+  }
+}
