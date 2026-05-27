@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fcf9149b-a54f-483b-a565-1412ae2e124e" name="Changes" comment="agregar mas datasets">
+      <change beforePath="$PROJECT_DIR$/../04-notebooks/.idea/04-notebooks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../04-notebooks/.idea/04-notebooks.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/05-clasificacion-multiclase.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/05-clasificacion-multiclase.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aumentar-dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/aumentar-dataset.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_0.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_0_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_0_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_0_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_0_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_0_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_10_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_10_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_10_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_10_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_10_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_11_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_11_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_11_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_11_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_11_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_12_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_12_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_12_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_12_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_12_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_13_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_13_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_13_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_13_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_13_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_14_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_14_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_14_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_14_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_14_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_15.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_15_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_15_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_15_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_15_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_15_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_16.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_16_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_16_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_16_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_16_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_16_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_17.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_17_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_17_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_17_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_17_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_17_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_18.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_18_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_18_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_18_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_18_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_18_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_19.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_19_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_19_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_19_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_19_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_19_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_1_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_1_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_1_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_1_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_1_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_20.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_20_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_20_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_20_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_20_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_20_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_21_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_21_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_21_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_21_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_21_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_22_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_22_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_22_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_22_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_22_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_23.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_23_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_23_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_23_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_23_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_23_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_24.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_24_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_24_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_24_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_24_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_24_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_25.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_25_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_25_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_25_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_25_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_25_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_26.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_26_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_26_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_26_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_26_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_26_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_27.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_27_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_27_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_27_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_27_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_27_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_28.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_28_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_28_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_28_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_28_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_28_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_29.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_29_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_29_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_29_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_29_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_29_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_2_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_2_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_2_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_2_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_2_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_30.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_30_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_30_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_30_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_30_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_30_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_31.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_31_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_31_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_31_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_31_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_31_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_32.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_32_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_32_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_32_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_32_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_32_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_33.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_33_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_33_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_33_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_33_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_33_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_34.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_34_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_34_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_34_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_34_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_34_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_35.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_35_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_35_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_35_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_35_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_35_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_36.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_36_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_36_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_36_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_36_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_36_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_37_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_37_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_37_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_37_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_37_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_38.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_38_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_38_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_38_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_38_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_38_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_39.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_39_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_39_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_39_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_39_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_39_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_3_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_3_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_3_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_3_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_3_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_40.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_40_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_40_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_40_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_40_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_40_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_41.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_41_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_41_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_41_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_41_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_41_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_42.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_42_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_42_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_42_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_42_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_42_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_43.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_43_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_43_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_43_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_43_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_43_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_44.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_44_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_44_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_44_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_44_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_44_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_45.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_45_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_45_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_45_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_45_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_45_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_46.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_46_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_46_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_46_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_46_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_46_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_47.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_47_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_47_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_47_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_47_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_47_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_48.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_48_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_48_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_48_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_48_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_48_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_49.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_49_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_49_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_49_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_49_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_49_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_4_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_4_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_4_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_4_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_4_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_50.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_50_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_50_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_50_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_50_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_50_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_51.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_51_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_51_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_51_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_51_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_51_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_52.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_52_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_52_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_52_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_52_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_52_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_53.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_53_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_53_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_53_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_53_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_53_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_54.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_54_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_54_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_54_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_54_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_54_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_55.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_55_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_55_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_55_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_55_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_55_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_57.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_57_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_57_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_57_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_57_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_57_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_58.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_58_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_58_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_58_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_58_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_58_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_5_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_5_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_5_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_5_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_5_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_62.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_62_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_62_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_62_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_62_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_62_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_63.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_63_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_63_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_63_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_63_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_63_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_64.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_64_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_64_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_64_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_64_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_64_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_65.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_65_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_65_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_65_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_65_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_65_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_66.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_66_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_66_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_66_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_66_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_66_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_67.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_67_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_67_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_67_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_67_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_67_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_68.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_68_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_68_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_68_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_68_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_68_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_69.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_69_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_69_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_69_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_69_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_69_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_6_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_6_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_6_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_6_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_6_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_70.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_70_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_70_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_70_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_70_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_70_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_71.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_71_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_71_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_71_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_71_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_71_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_72.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_72_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_72_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_72_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_72_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_72_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_73.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_73_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_73_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_73_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_73_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_73_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_74.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_74_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_74_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_74_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_74_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_74_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_75.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_75_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_75_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_75_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_75_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_75_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_76.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_76_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_76_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_76_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_76_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_76_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_77.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_77_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_77_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_77_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_77_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_77_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_78.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_78_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_78_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_78_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_78_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_78_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_79.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_79_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_79_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_79_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_79_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_79_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_7_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_7_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_7_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_7_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_7_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_80.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_80_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_80_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_80_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_80_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_80_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_82.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_82_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_82_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_82_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_82_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_82_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_83.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_83_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_83_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_83_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_83_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_83_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_84.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_84_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_84_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_84_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_84_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_84_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_85.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_85_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_85_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_85_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_85_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_85_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_87.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_87_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_87_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_87_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_87_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_87_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_88.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_88_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_88_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_88_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_88_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_88_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_89.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_89_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_89_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_89_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_89_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_89_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_8_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_8_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_8_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_8_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_8_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_90.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_90_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_90_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_90_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_90_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_90_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_91.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_91_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_91_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_91_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_91_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_91_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_92.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_92_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_92_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_92_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_92_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_92_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_93.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_93_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_93_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_93_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_93_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_93_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_94.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_94_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_94_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_94_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_94_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_94_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_95.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_95_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_95_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_95_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_95_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_95_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_96.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_96_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_96_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_96_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_96_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_96_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_97.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_97_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_97_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_97_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_97_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_97_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_98.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_98_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_98_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_98_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_98_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_98_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_99.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_99_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_99_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_99_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_99_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_99_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_9_espejo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_9_iluminado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_9_oscuro.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_9_rotado.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset-procesado/rene castro/rostro_9_ruido.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="5414" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="Jupyter Notebook" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.000000000012888" />
+      <entry key="S10" value="1.0000035900005588" />
+      <entry key="S30" value="1.0156503077722245" />
+      <entry key="S60" value="1.14290929582965" />
+      <entry key="M2" value="1.5299923675117784" />
+      <entry key="M5" value="3.438475209012795" />
+      <entry key="M10" value="13.158450758805177" />
+      <entry key="M15" value="29.336761507987035" />
+      <entry key="M30" value="78.38427887015928" />
+      <entry key="H1" value="136.10420778070403" />
+      <entry key="H2" value="181.82135181976224" />
+      <entry key="H4" value="210.83710541632448" />
+      <entry key="D1" value="238.90949684970292" />
+      <entry key="W1" value="244.1196543954083" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="1.2112627576370694E-125" />
+      <entry key="S5" value="1.0796807188294913E-50" />
+      <entry key="S10" value="1.0390768589615934E-25" />
+      <entry key="S30" value="4.701277544609481E-9" />
+      <entry key="S60" value="6.856592982678172E-5" />
+      <entry key="M2" value="0.008298656420889587" />
+      <entry key="M5" value="0.18539470028165084" />
+      <entry key="M10" value="0.9072836986599961" />
+      <entry key="M15" value="1.8149800985416398" />
+      <entry key="M30" value="4.011125957166964" />
+      <entry key="H1" value="6.226494401926698" />
+      <entry key="H2" value="7.854974516671407" />
+      <entry key="H4" value="8.852398796792803" />
+      <entry key="D1" value="9.797252926744877" />
+      <entry key="W1" value="9.970740044255619" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.31643914849257" />
+      <entry key="MS500" value="0.7944344000961048" />
+      <entry key="S2" value="0.9440924191502499" />
+      <entry key="S5" value="0.9772502813763411" />
+      <entry key="S10" value="0.9885631461244457" />
+      <entry key="S30" value="1.0116101366093513" />
+      <entry key="S60" value="1.1401017911777434" />
+      <entry key="M2" value="1.5355680120991024" />
+      <entry key="M5" value="3.6208760158785456" />
+      <entry key="M10" value="14.061640337902428" />
+      <entry key="M15" value="31.14684014152067" />
+      <entry key="M30" value="82.39004657125191" />
+      <entry key="H1" value="142.32637002846852" />
+      <entry key="H2" value="189.67350411331026" />
+      <entry key="H4" value="219.68788355035215" />
+      <entry key="D1" value="248.7064456839475" />
+      <entry key="W1" value="254.09035009380048" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="3BuQiO62zwdCnHDNzBvS9u4zlYV" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.aumentar-dataset.executor": "Run",
+    "Python.capturar-rostro.executor": "Run",
+    "Python.cnn-camara.executor": "Run",
+    "Python.entrenar-cnn.executor": "Run",
+    "Python.obtener-imagenes-dataset.executor": "Debug",
+    "Python.procesar.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/maple/Developer/inteligencia-artificial/curso/05-clasificacion-multiclase",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/dataset-procesado" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="cnn-camara" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="05-clasificacion-multiclase" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cnn-camara.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.cnn-camara" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-c59985aa861c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.24374.152" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fcf9149b-a54f-483b-a565-1412ae2e124e" name="Changes" comment="" />
+      <created>1775336601586</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1775336601586</updated>
+      <workItem from="1775336602604" duration="10299000" />
+      <workItem from="1775347004247" duration="2451000" />
+      <workItem from="1775423704896" duration="2450000" />
+      <workItem from="1779378308054" duration="1768000" />
+      <workItem from="1779394373762" duration="64000" />
+      <workItem from="1779409420480" duration="2046000" />
+    </task>
+    <task id="LOCAL-00001" summary="agregar mas datasets">
+      <option name="closed" value="true" />
+      <created>1775348954217</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1775348954217</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="agregar mas datasets" />
+    <option name="LAST_COMMIT_MESSAGE" value="agregar mas datasets" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/05_clasificacion_multiclase$cnn_camara.coverage" NAME="cnn-camara Coverage Results" MODIFIED="1779410747022" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/05_clasificacion_multiclase$aumentar_dataset.coverage" NAME="aumentar-dataset Coverage Results" MODIFIED="1779409542547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/05_clasificacion_multiclase$procesar.coverage" NAME="procesar Coverage Results" MODIFIED="1775425353747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/05_clasificacion_multiclase$obtener_imagenes_dataset.coverage" NAME="obtener-imagenes-dataset Coverage Results" MODIFIED="1775348142655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/05_clasificacion_multiclase$capturar_rostro.coverage" NAME="capturar-rostro Coverage Results" MODIFIED="1779409489985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
