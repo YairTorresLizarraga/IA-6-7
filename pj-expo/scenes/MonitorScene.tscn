@@ -1,0 +1,84 @@
+[gd_scene format=3 uid="uid://2y4v6xhrpluj"]
+
+[ext_resource type="Script" uid="uid://k6xbs5joiwxc" path="res://scripts/monitor_scene.gd" id="1_ejx86"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_te7p4"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_ex8wa"]
+
+[node name="MonitorScene" type="Node2D" unique_id=1096333127]
+script = ExtResource("1_ejx86")
+
+[node name="LLM" type="Node" parent="." unique_id=273094607]
+
+[node name="NobodyWhoChat" type="NobodyWhoChat" parent="LLM" unique_id=426844458 node_paths=PackedStringArray("model_node")]
+model_node = NodePath("../NobodyWhoModel")
+
+[node name="NobodyWhoModel" type="NobodyWhoModel" parent="LLM" unique_id=1846150729]
+model_path = "res://ggufs/gemma-2-2b-it-Q4_K_M.gguf"
+
+[node name="NobodyWhoChat2" type="NobodyWhoChat" parent="LLM" unique_id=1579354461 node_paths=PackedStringArray("model_node")]
+model_node = NodePath("../NobodyWhoModel")
+
+[node name="Control" type="Control" parent="." unique_id=1465730794]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 1024.0
+offset_bottom = 768.0
+
+[node name="ScreenBackground" type="ColorRect" parent="Control" unique_id=2104868159]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.670588, 0.666667, 0.545098, 1)
+
+[node name="ColorRect2" type="ColorRect" parent="Control" unique_id=1751212623]
+layout_mode = 0
+offset_left = 21.0
+offset_top = 9.0
+offset_right = 1012.0
+offset_bottom = 747.0
+color = Color(0.236334, 0.236334, 0.236334, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Control" unique_id=108122474]
+layout_mode = 0
+offset_left = 138.0
+offset_top = 50.0
+offset_right = 931.0
+offset_bottom = 690.0
+
+[node name="ScrollContainer" type="ScrollContainer" parent="Control/VBoxContainer" unique_id=1359631828]
+custom_minimum_size = Vector2(0, 600)
+layout_mode = 2
+horizontal_scroll_mode = 0
+
+[node name="Label" type="Label" parent="Control/VBoxContainer/ScrollContainer" unique_id=75469751]
+custom_minimum_size = Vector2(800, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.250948, 0.794514, 0.148602, 1)
+theme_override_font_sizes/font_size = 26
+text = "asdasdasdasdasd"
+autowrap_mode = 3
+
+[node name="LineEdit" type="LineEdit" parent="Control/VBoxContainer" unique_id=586332734]
+layout_mode = 2
+theme_override_colors/font_color = Color(0.25098, 0.796078, 0.14902, 1)
+theme_override_colors/font_placeholder_color = Color(0.130039, 0.425056, 0.078263, 1)
+theme_override_font_sizes/font_size = 24
+theme_override_styles/normal = SubResource("StyleBoxEmpty_te7p4")
+theme_override_styles/focus = SubResource("StyleBoxEmpty_ex8wa")
+placeholder_text = "Type Something..."
+keep_editing_on_text_submit = true
+context_menu_enabled = false
+emoji_menu_enabled = false
+virtual_keyboard_enabled = false
+caret_blink = true
+caret_force_displayed = true
+caret_mid_grapheme = true
+text_direction = 1
+
+[connection signal="response_updated" from="LLM/NobodyWhoChat" to="." method="_on_nobody_who_chat_response_updated"]
+[connection signal="text_submitted" from="Control/VBoxContainer/LineEdit" to="." method="_on_line_edit_text_submitted"]
