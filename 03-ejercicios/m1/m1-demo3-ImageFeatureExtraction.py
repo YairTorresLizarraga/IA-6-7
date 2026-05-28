@@ -1,4 +1,3 @@
-
 # coding: utf-8
 
 # # Extracting Features from Images
@@ -10,7 +9,7 @@
 
 # In[1]:
 
-get_ipython().system(u'pip install opencv-python')
+# get_ipython().system(u'pip install opencv-python')
 
 
 # In[2]:
@@ -32,7 +31,7 @@ image = cv2.imread(imagePath)
 
 # In[4]:
 
-get_ipython().magic(u'matplotlib inline')
+# get_ipython().magic(u'matplotlib inline')
 
 import matplotlib
 import matplotlib.pyplot as plt
@@ -131,3 +130,7 @@ expanded_image_grayscale
 
 
 
+
+
+# Añadido para mostrar los gráficos al ejecutar como script plano
+plt.show()

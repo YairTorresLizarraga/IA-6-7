@@ -57,7 +57,7 @@ print(pd.__version__)
 
 # In[8]:
 
-pd.DataFrame(bag_of_words.toarray(), columns=vectorizer.get_feature_names())
+pd.DataFrame(bag_of_words.toarray(), columns=vectorizer.get_feature_names_out())
 
 
 # #### Extend bag of words with TF-IDF weights
@@ -79,7 +79,7 @@ vectorizer.vocabulary_.get('document')
 
 # In[11]:
 
-pd.DataFrame(bag_of_words.toarray(), columns=vectorizer.get_feature_names())
+pd.DataFrame(bag_of_words.toarray(), columns=vectorizer.get_feature_names_out())
 
 
 # #### View all the words and their corresponding values
